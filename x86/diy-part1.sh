@@ -17,6 +17,6 @@
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo "src-git natelol https://github.com/natelol/natelol.git" >> feeds.conf.default
-cd lede/package/lean
-rm -rf luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
+# cd lede/package/lean
+# rm -rf luci-theme-argon
+# git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
