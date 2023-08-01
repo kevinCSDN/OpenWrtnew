@@ -20,9 +20,9 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-#  REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: master
+#  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_BRANCH: 22.03
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86/.config
   DIY_P1_SH: x86/diy-part1.sh
