@@ -13,14 +13,14 @@ name: Update Checker
 
 env:
 #  REPO_URL: https://github.com/coolsnowwolf/lede
-#  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 22.03
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+#  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_BRANCH: openwrt-21.02
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: 0 22 * * *
+  schedule:
+    - cron: 0 22 * * *
 
 jobs:
   check:
